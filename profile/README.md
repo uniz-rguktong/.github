@@ -1,67 +1,84 @@
 <!--
   UniZ Organization Profile
-  Designed for Excellence.
+  Enterprise-Grade University Operating System
 -->
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ea&height=300&section=header&text=UniZ&fontSize=90&animation=fadeIn&fontAlignY=38&desc=The%20Operating%20System%20for%20Universities&descAlignY=51&descAlign=62" width="100%" alt="UniZ Banner">
-</div>
+# UniZ Organization
 
-<div align="center">
-  
-  [![GitHub Organization](https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github)](https://github.com/uniz-rguktong)
-  [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=open-source-initiative)](https://opensource.org/licenses/MIT)
-  [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/uniz-rguktong)
-  [![Tech Stack](https://img.shields.io/badge/Tech-Stack-Elite-purple?style=for-the-badge)]()
+**The Operating System for Modern Universities**
 
-  <h3> Orchestrating Academic Excellence </h3>
-  <p>
-    UniZ is the centralized, scalable, and intelligent CMS designed to streamline university operations.<br/>
-    From student notifications to campus administration, we power the future of education.
-  </p>
-</div>
+UniZ provides a centralized, scalable, and intelligent Content Management System (CMS) designed to orchestrate university operations. From academic resource distribution to campus administration, we deliver enterprise-grade reliability and seamless integration.
 
 ---
 
-## 🚀 Mission
+## Mission
 
-To revolutionize campus management by providing a seamless, integrated, and highly reliable digital infrastructure. We believe in **efficiency**, **transparency**, and **innovation**.
+To modernize campus management through a unified digital infrastructure, prioritizing **efficiency**, **transparency**, and **maintainability**.
 
-## 🛠️ Tech Ecosystem
+## System Architecture
 
-Our architecture is built on cutting-edge technologies to ensure performance and scalability.
+Our platform is built on a microservices-inspired architecture to ensure high availability and separation of concerns.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,express,mongodb,postgresql,prisma,docker,aws,kubernetes,graphql,redis,linux,git,github&perline=8" />
-</div>
+```mermaid
+graph TD
+    User((User))
+    LB[Load Balancer]
+    API[API Gateway / UniZ Core]
+    Auth[Identity Service]
+    Db[(Primary Database)]
+    Cache[(Redis Cache)]
+    Notif[Notification Service]
+    
+    User -->|HTTPS| LB
+    LB --> API
+    API -->|AuthN/AuthZ| Auth
+    API -->|Read/Write| Db
+    API -->|High Speed Data| Cache
+    API -->|Events| Notif
+```
 
-## 🌟 Core Initiatives
+## Technology Stack
 
-| Project | Description | Status |
-|:---|:---|:---:|
-| **[UniZ Core](https://github.com/uniz-rguktong/uniZ)** | The heart of the system. Central CMS and API gateway. | 🟢 Active |
-| **UniZ Mobile** | Native experience for students and faculty. | 🟡 Planning |
-| **Sentinel** | Advanced security and identity management system. | 🔵 Research |
+We leverage industry-standard technologies to build robust and scalable solutions.
 
-## 🤝 Contributing
+- **Frontend**: React, Next.js, TypeScript
+- **Backend**: Node.js, Express, Prisma
+- **Infrastructure**: Docker, Kubernetes, AWS
+- **Data Persistence**: PostgreSQL, MongoDB, Redis
 
-We welcome contributions from the elite developer community. Whether you're fixing a bug, improving documentation, or proposing a new feature, your efforts are valued.
+## Roadmap & Initiatives
 
-> **"Code is the language of the future, and we are writing the dictionary."**
+```mermaid
+gantt
+    title Strategic Roadmap
+    dateFormat  YYYY-MM-DD
+    section Core Infrastructure
+    UniZ Core Development      :active, des1, 2025-01-01, 2026-06-01
+    API Stability Phase        :active, 2026-01-01, 2026-04-01
+    section Expansion
+    Mobile App Beta            :crit, 2026-05-01, 2026-12-01
+    Security Sentinel          :2026-08-01, 2027-01-01
+```
 
-Please review our [Contributing Guidelines](https://github.com/uniz-rguktong/.github/blob/main/CONTRIBUTING.md) before getting started.
+## Contributing
 
-## 🛡️ Security
+We welcome professional contributions. Please refer to our [Contributing Guidelines](https://github.com/uniz-rguktong/.github/blob/main/CONTRIBUTING.md) for detailed workflows.
 
-Security is paramount. If you discover a vulnerability, please refer to our [Security Policy](https://github.com/uniz-rguktong/.github/blob/main/SECURITY.md) for responsible disclosure.
+1.  **Fork** the repository.
+2.  **Create** a feature branch.
+3.  **Submit** a Pull Request with comprehensive tests.
+
+## Security
+
+Security is a foundational pillar of UniZ. Vulnerabilities should be reported in accordance with our [Security Policy](https://github.com/uniz-rguktong/.github/blob/main/SECURITY.md).
 
 ---
 
 <div align="center">
-  <p>© 2026 UniZ Organization. All Rights Reserved.</p>
   <p>
     <a href="https://github.com/uniz-rguktong">Home</a> •
     <a href="https://github.com/uniz-rguktong/uniZ/issues">Issues</a> •
     <a href="mailto:contact@uniz.org">Contact</a>
   </p>
+  <p>© 2026 UniZ Organization</p>
 </div>
