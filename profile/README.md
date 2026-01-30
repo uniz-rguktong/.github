@@ -4,7 +4,7 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ea&height=300&section=header&text=UniZ&fontSize=90&animation=fadeIn&fontAlignY=38&desc=The%20Operating%20System%20for%20RguktOngole&descAlignY=51&descAlign=62" width="100%" alt="UniZ Banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ea&height=300&section=header&text=uniZ&fontSize=90&animation=fadeIn&fontAlignY=38&desc=The%20Operating%20System%20for%20RguktOngole&descAlignY=51&descAlign=62" width="100%" alt="UniZ Banner">
 </div>
 
 <div align="center">
