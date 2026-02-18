@@ -1,6 +1,6 @@
 # UniZ Ecosystem
 
-![Master Vault Sync](https://img.shields.io/badge/Orchestration-Master_Vault-3178C6?style=for-the-badge&logo=github&logoColor=white)
+![Orchestration](https://img.shields.io/badge/Orchestration-Master_Vault-3178C6?style=for-the-badge&logo=github&logoColor=white)
 ![Infrastructure](https://img.shields.io/badge/Deployment-Cloud_Native-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Frontend](https://img.shields.io/badge/Client-Enterprise_Portal-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Security](https://img.shields.io/badge/Security-Identity_First-000000?style=for-the-badge&logo=security-scorecard&logoColor=white)
@@ -22,12 +22,14 @@ The UniZ platform is built on a modular microservices architecture, designed for
 | **Operations** | Communications & Automation | `uniz-notifications`, `uniz-mail`, `uniz-cron` |
 | **Foundations** | Orchestration & Deployment | `uniz-master-vault`, `uniz-infrastructure` |
 
-## Technical Capabilities
+## Deployment & Security Notice
 
-*   **Fast-Pass Security**: Edge-level authentication (Redis) ensuring <1ms latency for identity verification.
-*   **Bulk Ingestion**: Automated curriculum and result processing capable of handling 5,000+ records in seconds.
-*   **Event-Driven Pulse**: Real-time notification infrastructure powered by Redis Pub/Sub and WebSockets.
-*   **Vault Orchestration**: A specialized monorepo-to-multirepo synchronization strategy for modular development at scale.
+To maintain the architectural integrity and protect the proprietary implementation of the UniZ ecosystem, all core microservice repositories and the Master Vault are currently set to **Private**. This prevents unauthorized replication of the campus infrastructure while ensuring the security of institutional data and logic.
+
+## Contributor Access
+
+We are expanding. If you are a developer or technical architect interested in contributing to the future of university orchestration:
+> **Visit [sreecharandesu.in](https://sreecharandesu.in) to request contributor access.**
 
 ## Technology Stack
 
@@ -40,5 +42,5 @@ The ecosystem leverages state-of-the-art technologies to ensure performance and 
 
 ---
 <p align="center">
-  Platform Managed by SABER & RGUKT Ongole Technical Infrastructure Team.
+  Platform Managed by SABER Desu & RGUKT Ongole Technical Infrastructure Team.
 </p>
