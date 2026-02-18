@@ -29,7 +29,7 @@ To maintain the architectural integrity and protect the proprietary implementati
 ## Contributor Access
 
 We are expanding. If you are a developer or technical architect interested in contributing to the future of university orchestration:
-> **Visit [sreecharandesu.in](https://sreecharandesu.in) to request contributor access.**
+> **Contact SreeCharan at [chat.sreecharandesu.in](https://chat.sreecharandesu.in) to request contributor access.**
 
 ## Technology Stack
 
