@@ -40,5 +40,5 @@ The ecosystem leverages state-of-the-art technologies to ensure performance and 
 
 ---
 <p align="center">
-  Platform Managed by SABER Desu & RGUKT Ongole Technical Infrastructure Team.
+  Platform Managed by SABER & RGUKT Ongole Technical Infrastructure Team.
 </p>
