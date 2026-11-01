@@ -1,21 +1,21 @@
 # Security Policy
 
-## Supported Versions
+UniZ holds real student data (grades, attendance, outpass records), so we take reports seriously.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.x     | :white_check_mark: |
-| < 1.0   | :x:                |
+## Reporting a vulnerability
 
-## Reporting a Vulnerability
+Please don't open a public issue.
 
-We take the security of our systems seriously.
+- Preferred: use GitHub's private reporting on the affected repo (Security tab, "Report a vulnerability"). For most things that's [uniz-master](https://github.com/uniz-rguktong/uniz-master/security/advisories/new).
+- Or email uniz@rguktong.ac.in.
 
-If you believe you have found a security vulnerability in any UniZ module:
+Include what you found, steps to reproduce and what an attacker could do with it. We'll reply within 3 days and keep you posted until it's fixed. Please give us time to ship a fix before talking about it publicly.
 
-1.  **Do NOT open an issue.**
-2.  Please report it responsibly by emailing **security@uniz.org**.
-3.  Include a description of the vulnerability, steps to reproduce, and potential impact.
+## Scope
 
-We will acknowledge your report within 48 hours and provide an estimated timeline for a fix.
-We appreciate your help in making UniZ secure.
+In scope: uniz.rguktong.in, rguktong.in, api-uniz.rguktong.in and the code in this org.
+Out of scope: denial of service, spam, social engineering, and findings that need a rooted device or a compromised account.
+
+## Supported versions
+
+Only the latest `main` is supported. Production deploys from `main`.

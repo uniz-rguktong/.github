@@ -27,8 +27,12 @@ The Android client is **not** a separate app repo. It lives in `uniz-master` as 
 2. Read [STRUCTURE.md](https://github.com/uniz-rguktong/uniz-master/blob/main/STRUCTURE.md) and [docs/org](https://github.com/uniz-rguktong/uniz-master/blob/main/docs/org/README.md)
 3. Local setup: [CONTRIBUTING.md](https://github.com/uniz-rguktong/uniz-master/blob/main/CONTRIBUTING.md)
 
+### Contribute
+
+UniZ is built by students across RGUKT. New here? Start with a [good first issue](https://github.com/uniz-rguktong/uniz-master/issues?q=is%3Aopen+label%3A%22good+first+issue%22), read [CONTRIBUTING](https://github.com/uniz-rguktong/.github/blob/main/CONTRIBUTING.md), and ask questions in [Discussions](https://github.com/uniz-rguktong/uniz-master/discussions).
+
 ### Links
 
 - Portal: [uniz.rguktong.in](https://uniz.rguktong.in)
 - Docs: [api-uniz.rguktong.in/docs](https://api-uniz.rguktong.in/docs)
-- Security: report privately per [SECURITY.md](https://github.com/uniz-rguktong/uniz-master/blob/main/SECURITY.md)
+- Security: report privately per [SECURITY.md](https://github.com/uniz-rguktong/.github/blob/main/SECURITY.md)
