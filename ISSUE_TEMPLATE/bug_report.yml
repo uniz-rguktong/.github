@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in UniZ is broken
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting. Search open issues first so we don't get duplicates. Never paste passwords, tokens or other students' data.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Portal (uniz.rguktong.in), Landing (rguktong.in), API / backend, Android app, Docs, CI / infra, Not sure]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Log in as a student
+        2. Open Academics > Grades
+        3. Pick semester E2 S1
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Error text, console output or screenshots help a lot.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser / device
+      placeholder: Chrome 130 on Android 14
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues
+          required: true
