@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1680" height="1050" alt="UniZ" src="https://github.com/user-attachments/assets/82b4ba14-c1a2-4bf9-96b1-83b46ba38544" />
+  <img width="1680" height="1050" alt="UniZ" src="uniz.webp" />
 </p>
 
 <p align="center">
