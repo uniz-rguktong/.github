@@ -7,24 +7,26 @@
 </p>
 
 <p align="center">
-  Student &amp; admin portals · academics · outpass · grades · notifications · Android TWA<br/>
-  TypeScript monorepo on K3s · PostgreSQL · Prisma · Redis · GitHub Actions
+  Student &amp; admin portals · academics · grades · grievances · notifications · Android TWA<br/>
+  TypeScript monorepo · Cloudflare Pages + single VPS (k3s) · PostgreSQL · Prisma · Redis · GitHub Actions
 </p>
 
 ### Source of truth
 
 | Repository | Purpose |
 |---|---|
-| **[uniz-master](https://github.com/uniz-rguktong/uniz-master)** | Entire product: APIs, portal, landing, docs, infra, **and Android app** |
+| **[uniz-master](https://github.com/uniz-rguktong/uniz-master)** | Entire product: APIs, portal, landing, docs, infra, Android TWA |
 | **[uniz-hall-ticket](https://github.com/uniz-rguktong/uniz-hall-ticket)** | Standalone hall-ticket utility |
 | **[.github](https://github.com/uniz-rguktong/.github)** | Organization profile & community defaults |
+
+Production topology: **Cloudflare Pages** serves portal/landing; the **VPS** runs `gateway-api` → microservices, Postgres, Redis, docs, and localhost-only observability. No always-on legacy monolith.
 
 The Android client is **not** a separate app repo. It lives in `uniz-master` as a Trusted Web Activity (`apps/uniz-android-twa`). Build with `npm run android:apk`; students download from [uniz.rguktong.in/download/uniz.apk](https://uniz.rguktong.in/download/uniz.apk).
 
 ### Start here
 
 1. Clone [uniz-master](https://github.com/uniz-rguktong/uniz-master)
-2. Read [STRUCTURE.md](https://github.com/uniz-rguktong/uniz-master/blob/main/STRUCTURE.md) and [docs/org](https://github.com/uniz-rguktong/uniz-master/blob/main/docs/org/README.md)
+2. Read [STRUCTURE.md](https://github.com/uniz-rguktong/uniz-master/blob/main/STRUCTURE.md) and the [ops index](https://github.com/uniz-rguktong/uniz-master/blob/main/docs/ops/INDEX.md)
 3. Local setup: [CONTRIBUTING.md](https://github.com/uniz-rguktong/uniz-master/blob/main/CONTRIBUTING.md)
 
 ### Contribute
@@ -34,5 +36,6 @@ UniZ is built by students across RGUKT. New here? Start with a [good first issue
 ### Links
 
 - Portal: [uniz.rguktong.in](https://uniz.rguktong.in)
+- Landing: [rguktong.in](https://rguktong.in)
 - Docs: [api-uniz.rguktong.in/docs](https://api-uniz.rguktong.in/docs)
 - Security: report privately per [SECURITY.md](https://github.com/uniz-rguktong/.github/blob/main/SECURITY.md)
